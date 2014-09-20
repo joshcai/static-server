@@ -43,6 +43,8 @@ http.createServer(function (req, res) {
         files.splice(files.indexOf('node_modules'), 1);
         files.splice(files.indexOf('package.json'), 1);
         files.splice(files.indexOf('static_server.js'), 1);
+        files.splice(files.indexOf('.git'), 1);
+        files.splice(files.indexOf('.gitignore'), 1);
 
         var html = '';
         for(var i=0; i < files.length; i++)
