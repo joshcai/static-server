@@ -5,7 +5,6 @@
   "description": "Serves static files, allows you to upload and manage them",
   "repository": "https://github.com/joshcai/static-server",
   "dependencies": {
-    "formidable": "^1.0.15",
     "multiparty": "^3.3.2",
     "node-static": "^0.7.5"
   }
